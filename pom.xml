@@ -12,6 +12,7 @@
     <module>customer</module>
     <module>fraud</module>
     <module>eureka-server</module>
+    <module>clients</module>
   </modules>
 
   <name>amigosservices</name>
@@ -62,6 +63,10 @@
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
       <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-openfeign</artifactId>
     </dependency>
   </dependencies>
 
