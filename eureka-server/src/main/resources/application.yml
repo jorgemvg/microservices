@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: eureka-server
+  datasource:
+    password: password
+    url: jdbc:postgresql://localhost:5432/fraud
+    username: amigoscode
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
